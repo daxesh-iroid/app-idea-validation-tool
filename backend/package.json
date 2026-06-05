@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
+    "lint": "find . -name '*.js' -not -path './node_modules/*' -not -path './coverage/*' -print0 | xargs -0 -n1 node --check",
+    "test": "node -e \"console.log('No automated backend tests configured yet; Task 3 will add the test harness.')\"",
+    "build": "npm run lint",
     "db:sync": "node scripts/syncDb.js",
     "seed": "node scripts/seed.js"
   },
