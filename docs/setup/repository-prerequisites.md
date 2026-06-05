@@ -1,7 +1,7 @@
 # Repository Prerequisites — Task 2
 
-**Task:** `app-idea-validation-tool-arch-repo-prerequisites-002`  
-**Date:** 2026-06-05  
+**Task:** `app-idea-validation-tool-arch-repo-prerequisites-002`<br>
+**Date:** 2026-06-05<br>
 **Scope:** Repository prerequisite verification and hardening only. No product features were implemented.
 
 ## Summary
