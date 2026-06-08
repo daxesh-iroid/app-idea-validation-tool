@@ -43,7 +43,6 @@ const Validation = sequelize.define('Validation', {
   needsAI: { type: DataTypes.BOOLEAN, defaultValue: false },
   needsIntegrations: { type: DataTypes.BOOLEAN, defaultValue: false },
   platformNeeds: { type: DataTypes.STRING },
-  // Scores
   ideaClarity: { type: DataTypes.INTEGER },
   marketRisk: { type: DataTypes.INTEGER },
   mvpFeasibility: { type: DataTypes.INTEGER },
